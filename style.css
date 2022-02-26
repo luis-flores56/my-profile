@@ -1,0 +1,94 @@
+body {
+	background-color: #718355;
+    color: black;
+    font-family: Times; 
+    font-size: 22px ;
+}
+
+h1 {
+	    color: #3c53f5;
+    font-family: 'Acme', sans-serif;
+    font-weight: 555 ;
+    letter-spacing: 2px;
+    font-size: 48px;
+}
+h2{
+    color: rgb(10, 10, 10);
+    font-family:  'Lora', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #370617;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Acme', sans-serif;
+}
+a:hover {
+    color: blue;
+}
+   
+   
+.container {
+    width: 700px;
+    margin: 22px auto;
+}
+
+@media (max-width: 760px) {
+    .container{
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 400px;
+    }
+}
+
+.box-green {
+    background-color: #dda15e;
+    padding: 38px;
+    margin: 25px;
+    box-shadow: 0px 10px 15px rgb(40, 43, 87);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+.btn-pink {
+    background-color: #f72585;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+.btn-pink:hover {
+    background-color: blue;
+    color: black;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 45px;
+    color: #718355;
+}
+.list-inline i:hover {
+    color: blue;
+}
+
+#introduction p {
+    margin-bottom: 15px;
+}
+
+
+
